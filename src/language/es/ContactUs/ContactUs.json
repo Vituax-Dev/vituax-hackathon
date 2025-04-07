@@ -1,0 +1,23 @@
+{
+  "titleStart": "",
+  "boldTitle": "Simplifique, integre y potencie",
+  "titleEnd": " sus aplicaciones en la nube",
+  "sloganStart": "Solicite el contacto de un ",
+  "sloganBold": "especialista:",
+  "sloganEnd": "",
+  "footerStart": "Al enviar este formulario, usted acepta nuestra ",
+  "footerLink": "Política de Privacidad",
+  "footerEnd": ".",
+  "name": "Nombre",
+  "email": "Correo electrónico",
+  "jobTitle": "Cargo",
+  "companyName": "Nombre de la empresa",
+  "phoneNumber": "Número de teléfono",
+  "country": "País",
+  "message": "Mensaje",
+  "submit": "Enviar",
+  "fillAllFields": "Por favor, complete todos los campos.",
+  "validEmail": "Por favor, ingrese un correo electrónico válido.",
+  "success": "Gracias por su interés en los servicios de Vituax. Nuestro equipo está revisando su solicitud y se pondrá en contacto con usted lo antes posible.",
+  "acceptPrivacyPolicy": "Por favor, acepte la Política de Privacidad."
+}

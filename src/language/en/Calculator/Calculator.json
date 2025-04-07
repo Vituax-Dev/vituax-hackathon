@@ -1,0 +1,13 @@
+{
+  "title": "Cloud Calculator",
+  "subtitle": "Simulate costs based on your cloud configurations",
+  "os": "OPERATING SYSTEM",
+  "memoryLabel": "MEMORY",
+  "cpuLabel": "PROCESSING",
+  "diskLabel": "DISK SPACE",
+  "trafficLabel": "TRAFFIC",
+  "free": "FREE",
+  "contractButton": "Hire server",
+  "monthly": "/month",
+  "total": "Total:"
+}

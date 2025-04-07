@@ -1,0 +1,135 @@
+[data-theme="light"] {
+  --white: #ffffff;
+  --offWhite: #f9f9f9;
+  --lightGray: #d9d9d9;
+  --gray: #474b54;
+  --lightBlack: #0f1216;
+  --yellow: #ffdf22;
+  --yellowLight: #fff6b2;
+  --whiteBlue: #dee2f3;
+  --lightBlue: #c1cafb;
+  --royalBlue: #3d049e;
+  --darkerRoyalBlue: #2e0282;
+  --mediumBlue: #4b5cb7;
+  --shadow: rgba(37, 41, 48, 0.12);
+}
+
+[data-theme="dark"] {
+  --white: #ffffff;
+  --offWhite: #f9f9f9;
+  --lightGray: #d9d9d9;
+  --gray: #474b54;
+  --lightBlack: #0f1216;
+  --yellow: #ffdf22;
+  --yellowLight: #fff6b2;
+  --whiteBlue: #dee2f3;
+  --lightBlue: #c1cafb;
+  --royalBlue: #3d049e;
+  --darkerRoyalBlue: #2e0282;
+  --mediumBlue: #4b5cb7;
+  --shadow: rgba(37, 41, 48, 0.12);
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--lightBlack);
+  background: var(--white);
+  font-family: inter, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input {
+  font-family: "__vinila_1710d6", "__vinila_Fallback_1710d6";
+}
+
+input::placeholder {
+  font-family: "__vinila_1710d6", "__vinila_Fallback_1710d6" !important;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.swiper-pagination {
+  bottom: 40px !important;
+  line-height: 0px !important;
+}
+
+.swiper-pagination-bullet {
+  background: rgba(255, 255, 255, 0.7) !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--white) !important;
+  width: 20px !important;
+  border-radius: 20px !important;
+}
+
+#logosSwiper > .swiper-pagination {
+  position: static !important;
+  margin-top: 64px !important;
+  z-index: 10 !important;
+}
+
+#logosSwiper > .swiper-pagination > .swiper-pagination-bullet {
+  z-index: 11 !important;
+}
+
+#logosSwiper > .swiper-button-next {
+  user-select: none !important;
+  z-index: 12 !important;
+  position: relative !important;
+  color: var(--white) !important;
+  top: 85px !important;
+  margin-left: 290px !important;
+  background-color: rgba(112, 112, 112, 0.3) !important;
+  border-radius: 100% !important;
+  text-align: center !important;
+  width: 32px !important;
+  height: 32px !important;
+}
+
+#logosSwiper > .swiper-button-next:hover {
+  background-color: rgba(112, 112, 112, 0.4) !important;
+}
+
+#logosSwiper > .swiper-button-next::after {
+  font-size: 12px !important;
+  font-weight: 700 !important;
+}
+
+#logosSwiper > .swiper-button-prev {
+  position: relative !important;
+  z-index: 12 !important;
+  color: var(--white) !important;
+  top: 95px !important;
+  background-color: rgba(112, 112, 112, 0.3) !important;
+  border-radius: 100% !important;
+  text-align: center !important;
+  width: 32px !important;
+  height: 32px !important;
+  margin-right: 290px !important;
+}
+
+#logosSwiper > .swiper-button-prev:hover {
+  background-color: rgba(112, 112, 112, 0.4) !important;
+}
+
+#logosSwiper > .swiper-button-prev::after {
+  font-size: 12px !important;
+  font-weight: 700 !important;
+}

@@ -1,0 +1,18 @@
+.navLink {
+  color: var(--blueMedium);
+}
+
+.navLink > * > svg {
+  fill: #4b5cb7 !important;
+  color: var(--blueMedium) !important;
+}
+
+.navLink:hover {
+  color: var(--royalBlue);
+  text-decoration: none;
+  fill: var(--royalBlue) !important;
+}
+
+.navLink:hover > * > svg {
+  fill: var(--royalBlue) !important;
+}

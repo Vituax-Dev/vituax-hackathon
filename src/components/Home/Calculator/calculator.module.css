@@ -1,0 +1,70 @@
+.title {
+  color: var(--royalBlue, #3d04aa);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.subtitle {
+  color: var(--mediumBlue, #4b5cb7);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 24px;
+}
+
+.label {
+  color: var(--royalBlue, #3d04aa);
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "__vinila_1710d6", "__vinila_Fallback_1710d6";
+  text-transform: uppercase;
+}
+
+.labelFree {
+  color: #087450;
+  text-align: right;
+  font-family: "__vinila_1710d6", "__vinila_Fallback_1710d6";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.totalBox {
+  display: flex;
+  box-sizing: border-box;
+  padding: 0 24px;
+  gap: 32px;
+  flex-grow: 1;
+  justify-content: space-between;
+  align-items: center;
+  height: 48px;
+  border-radius: 12px;
+  border: 1px solid #4b5cb7;
+}
+
+.totalText {
+  color: #4b5cb7;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.priceText {
+  color: var(--blue, #3d04aa);
+}
+
+@media screen and (max-width: 650px) {
+  .label {
+    font-size: 14px;
+  }
+  .labelFree {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .totalBox {
+    width: 100%;
+  }
+}

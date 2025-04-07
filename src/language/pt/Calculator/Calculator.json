@@ -1,0 +1,13 @@
+{
+  "title": "Calculadora de Cloud",
+  "subtitle": "Faça uma simulação de valores com as configurações da sua cloud",
+  "os": "SISTEMA OPERACIONAL",
+  "memoryLabel": "MEMÓRIA",
+  "cpuLabel": "PROCESSAMENTO",
+  "diskLabel": "ESPAÇO EM DISCO",
+  "trafficLabel": "TRÁFEGO",
+  "free": "GRATUITO",
+  "contractButton": "Contratar servidor",
+  "monthly": "/mês",
+  "total": "Total:"
+}

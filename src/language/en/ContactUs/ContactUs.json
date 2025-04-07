@@ -1,0 +1,23 @@
+{
+  "titleStart": "",
+  "boldTitle": "Simplify, integrate, and enhance",
+  "titleEnd": " your cloud applications",
+  "sloganStart": "Request contact from a ",
+  "sloganBold": "specialist:",
+  "sloganEnd": "",
+  "footerStart": "By submitting this form, you agree to our ",
+  "footerLink": "Privacy Policy",
+  "footerEnd": ".",
+  "name": "Name",
+  "email": "Email",
+  "jobTitle": "Job title",
+  "companyName": "Company name",
+  "phoneNumber": "Phone number",
+  "country": "Country",
+  "message": "Message",
+  "submit": "Submit",
+  "fillAllFields": "Please fill out all fields.",
+  "validEmail": "Please enter a valid email.",
+  "success": "Thank you for your interest in Vituax services. Our team is reviewing your request and will get back to you as soon as possible.",
+  "acceptPrivacyPolicy": "Please accept the Privacy Policy."
+}

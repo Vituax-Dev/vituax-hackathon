@@ -1,0 +1,10 @@
+.mainDiv {
+  min-height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background: linear-gradient(
+    90deg,
+    var(--white) 45.72%,
+    var(--whiteBlue) 79.36%
+  );
+}

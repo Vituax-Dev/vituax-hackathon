@@ -1,0 +1,15 @@
+.headerSeparator {
+  margin: 0 clamp(0px, 1vw, 12px);
+}
+
+.aboutUsSeparator {
+  margin-bottom: 12px;
+}
+
+.upixNetworksSeparator {
+  margin-bottom: 12px;
+}
+
+.privacySeparator {
+  margin-bottom: 0;
+}

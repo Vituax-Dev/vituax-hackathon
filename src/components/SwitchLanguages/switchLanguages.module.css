@@ -1,0 +1,27 @@
+.list {
+  padding: 8px 0 !important;
+}
+
+.listItem {
+  cursor: pointer;
+  padding: 8px !important;
+}
+
+.listItem:hover {
+  background-color: var(--whiteBlue);
+}
+
+.listButton {
+  border-radius: 4px;
+  width: 56px;
+  min-width: 56px !important;
+  height: 40px;
+  padding: 0px;
+}
+
+.flag {
+  border-radius: 8px;
+  width: 40px;
+  height: 24px;
+  object-fit: cover;
+}

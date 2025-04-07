@@ -1,0 +1,19 @@
+.title {
+  color: var(--royalBlue);
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.boldTitle {
+  font-weight: 700;
+}
+
+.desc {
+  color: var(--mediumBlue) !important;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.boldDesc {
+  font-weight: 600;
+}

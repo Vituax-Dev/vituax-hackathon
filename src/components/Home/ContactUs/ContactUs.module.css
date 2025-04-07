@@ -1,0 +1,294 @@
+.container {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 112px 40px;
+  border-radius: 24px;
+  background: linear-gradient(90deg, #3d04aa 0%, #2e0282 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  color: var(--white, #fff);
+  text-align: center;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.boldTitle {
+  font-weight: 700;
+}
+
+.slogan {
+  color: var(--yellowLight, #fff6b2);
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  margin-top: 48px;
+  font-weight: 400;
+}
+
+.sloganBold {
+  font-weight: 500;
+}
+
+.footer {
+  color: #eceef2;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.footerLink {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  background: transparent;
+  outline: none;
+  border: none;
+  color: #eceef2;
+}
+
+.footerLink:hover {
+  cursor: pointer;
+  color: var(--lightBlue);
+}
+
+.formContainer {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  flex-wrap: wrap;
+  max-width: 600px;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.formInput {
+  color: var(--white, #fff);
+  display: flex;
+  width: 284px;
+  height: 48px;
+  padding: 16px;
+  align-items: center;
+  flex-shrink: 0;
+  font-family: "__vinila_1710d6", "__vinila_Fallback_1710d6" !important;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 12px;
+  border: 1px solid var(--mediumBlue);
+  background: var(--mediumBlue);
+}
+
+.formInput::placeholder {
+  font-family: "__vinila_1710d6", "__vinila_Fallback_1710d6" !important;
+}
+
+.formInput::-ms-input-placeholder {
+  font-family: "__vinila_1710d6", "__vinila_Fallback_1710d6" !important;
+}
+
+.formInput::-webkit-input-placeholder {
+  font-family: "__vinila_1710d6", "__vinila_Fallback_1710d6" !important;
+}
+
+.formInput:hover {
+  border: 1px solid var(--lightBlue);
+  box-shadow: none;
+}
+
+.formInput:focus {
+  border: 1px solid var(--offWhite);
+  box-shadow: none;
+  outline: none;
+}
+
+.formInput:focus-visible {
+  border: 1px solid var(--offWhite);
+  border-color: var(--offWhite);
+  outline: none;
+  box-shadow: 0px 0px 3px 0px var(--lightBlue) !important;
+}
+
+.formInput::placeholder {
+  color: var(--offWhite);
+  font-family: "__vinila_1710d6", "__vinila_Fallback_1710d6" !important;
+  font-weight: 400;
+}
+
+.textareaWrapper {
+  position: relative;
+  width: 100%;
+  height: 104px;
+  border-radius: 12px;
+  border: 1px solid var(--mediumBlue);
+  background-color: var(--mediumBlue);
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 8px;
+}
+
+/* Quando o contêiner está ativo ou em foco */
+.textareaWrapper:hover {
+  border: 1px solid var(--lightBlue); /* Hover */
+}
+
+.textareaWrapper:focus-within {
+  border: 1px solid var(--offWhite); /* Quando a textarea ou os filhos estão em foco */
+  box-shadow: 0px 0px 3px var(--lightBlue); /* Adiciona sombra */
+}
+
+.formInputTextArea {
+  box-sizing: border-box;
+  color: var(--white);
+  background: var(--mediumBlue);
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 8px;
+  align-items: center;
+  flex-shrink: 0;
+  font-family: "__vinila_1710d6", "__vinila_Fallback_1710d6" !important;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  resize: none;
+}
+
+.formInputTextArea:hover {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.formInputTextArea:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.formInputTextArea:focus-visible {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.formInputTextArea::placeholder {
+  color: var(--offWhite);
+  font-family: "__vinila_1710d6", "__vinila_Fallback_1710d6" !important;
+  font-weight: 400;
+}
+
+.formInputTextArea::-webkit-scrollbar {
+  width: 4px;
+  border-radius: 4px;
+  background-color: var(--silver);
+}
+
+.formInputTextArea::-webkit-scrollbar-thumb {
+  background: var(--royalBlue);
+  border-radius: 4px;
+}
+
+.formInputTextArea::-webkit-scrollbar-thumb:hover {
+  background: var(--royalBlue);
+  cursor: pointer;
+}
+
+.option {
+  color: var(--royalBlue) !important;
+}
+
+.option:hover {
+  background-color: var(--lightBlue);
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 27px;
+  flex-wrap: nowrap;
+}
+
+.line {
+  width: 95px;
+  height: 2px;
+  background: var(--mediumBlue);
+  opacity: 0.4;
+}
+
+.submitBtn {
+  flex-grow: 3;
+  height: 48px;
+  background: var(--white) !important;
+  color: var(--royalBlue) !important;
+  border-radius: 12px !important;
+  font-family: "__vinila_1710d6", "__vinila_Fallback_1710d6" !important;
+  transition: 0.3s !important;
+  text-transform: none !important;
+}
+
+.submitBtn:hover {
+  background: transparent !important;
+  color: var(--white) !important;
+  border: 1px solid var(--white) !important;
+}
+
+.alertContainer {
+  position: relative;
+  z-index: 3;
+  width: 100%;
+  margin-top: 12px;
+}
+
+.alertBox {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  z-index: 4;
+}
+
+.alert {
+  transition: transform 0.3s ease-in-out;
+  max-width: 600px !important;
+}
+
+.footerContainer {
+  margin-top: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 659px) {
+  .container {
+    padding: 0;
+  }
+}
